@@ -1,6 +1,6 @@
 {
   "name": "append-react-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "append react dom node to element.",
   "main": "index.js",
   "scripts": {

@@ -10,7 +10,7 @@ module.exports = function appendReactDOM(Component, el, props, done) {
 	if (!props) {
 		props = {};
 	}
-	
+
 	if (el.length) {
 		el = Array.prototype.slice.call(el);
 	} else {
@@ -21,6 +21,7 @@ module.exports = function appendReactDOM(Component, el, props, done) {
 		let div = document.createElement('div');
 		let r = ReactDOM.render(React.createElement(Component, props, null), div, function () {
 			dom.appendChild(ReactDOM.findDOMNode(this));
+			typeof done === 'function' && done();
 		});
 	});
 }
