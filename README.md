@@ -1,3 +1,4 @@
+[![NPM](https://nodei.co/npm/append-react-dom.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/append-react-dom/)
 # appendReactDOM
 
 Append React DOM Node to an element.
